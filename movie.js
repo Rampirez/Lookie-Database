@@ -19,10 +19,6 @@ function displayMovie(){
         var mPoster = response.poster;
         var poster = $("<img>").text("Poster: " + mPoster);
         movieDiv.append(poster);
-        console.log(title);
-        console.log(rated);
-        console.log(plot);
-        console.log(mPoster);
       });   
 }
 displayMovie();
