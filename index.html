@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Attached CSS file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Animation.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <title>Lookie</title>
 </head>
-<body>
+<body class="align">
     
+  <!-- logo with animation.css -->
+  <div class="img-container rotateInDownLeft animated">
+    <img src="./assets/images/homepage-logo.png" alt="Lookie Home Page Logo" width="620px" height="145px">
+  </div>
+  <br>
+
+  <!-- search bar -->
+  <div class="grid">
+    <form action="" method="get" class="search">
+      <div class="form__field">
+        <input type="search" name="search" placeholder="What are you looking for?" class="form__input" id="searchBar">
+        <input type="submit" value="Search" class="button" id="searchButton">
+      </div>
+    </form>
+  </div>
+
 </body>
 </html>
