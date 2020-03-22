@@ -1,4 +1,6 @@
-Howdy! Lookie is a small website that uses the goodreads api and the Online Movie Database api to search movies, and offer you books on amazon named after the movie!
+Howdy! Lookie is a small website that uses the goodreads api and the Online Movie Database api to search movies, and offer you books on amazon named after the movie! Here's the link!
+
+https://rampirez.github.io/Lookie-Database/
 
 # Usage
 1. Use the search bar to find a movie!
